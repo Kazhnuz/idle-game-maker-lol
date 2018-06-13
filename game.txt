@@ -11,7 +11,7 @@ Settings
     building cost increase:115%
     building cost refund:50%
     spritesheet:res, 16 by 16, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/res.png
-    stylesheet:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/game.css
+    stylesheet:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/css.txt
  
 Layout
 *forces
