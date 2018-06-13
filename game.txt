@@ -46,13 +46,13 @@ Buttons
         tooltip origin:bottom
         tooltip class:red
  
-    *sellAction
-        name:Sell a creature
-        desc:Sell one of your creature!
+    *workAction
+        name:Work
+        desc:Go working in order to gain more money!
         on click:anim icon wobble
-        on click:yield 10 gold
-        on click:yield -1 gobelin
+        on click:yield 1 gold
         class:action
+        icon:sprite[1,2]
         tooltip origin:bottom
         tooltip class:red
        
@@ -79,10 +79,18 @@ Buildings
        
     *workforce|workforces
         name:Work Force|Work Forces
-        desc:A tiny little cage.<//><b>Effect:</b><.>Summon 1 gobelin every 5 seconds.
+        desc:A gobelin worker.<//><b>Effect:</b><.>Gain 1 gold every 5 seconds.
         icon:sprite[0,1]
         cost:15 gobelins
         on tick:yield 0.2 gobelins
+        unlocked
+        
+    *apprentice|apprentices
+        name:Apprentice|Apprentices
+        desc:A tiny little cage.<//><b>Effect:</b><.>Summon 1 gobelin every 2 seconds.
+        icon:sprite[2,1]
+        cost:15 gold
+        on tick:yield 0.5 gobelins
         unlocked
        
 Upgrades
