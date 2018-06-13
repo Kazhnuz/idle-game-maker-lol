@@ -66,7 +66,7 @@ Resources
    *gobelin|gobelins
         name:Gobelin|Gobelins
         desc:Gobelins are the most basic unit that you can use. Maybe they'll serve to something one day ?
-        icon:res[0,1]
+        icon:res[1,0]
         class:noBackground
         show earned
        
@@ -76,11 +76,11 @@ Buildings
     *TEMPLATE
         on click:anim glow
        
-    *autosummoner|autosummoners
-        name:Automatic Summoner|Automatic Summoners
+    *workforce|workforces
+        name:Work Force|Work Forces
         desc:A tiny little cage.<//><b>Effect:</b><.>Summon 1 gobelin every 5 seconds.
-        icon:res[0,1]
-        cost:15 gold
+        icon:res[1,0]
+        cost:15 gobelins
         on tick:yield 0.2 gobelins
         unlocked
        
