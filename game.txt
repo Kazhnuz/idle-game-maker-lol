@@ -82,7 +82,7 @@ Buildings
         desc:A gobelin worker.<//><b>Effect:</b><.>Gain 1 gold every 5 seconds.
         icon:sprite[0,1]
         cost:15 gobelins
-        on tick:yield 0.2 gobelins
+        on tick:yield 0.2 gold
         unlocked
         
     *apprentice|apprentices
