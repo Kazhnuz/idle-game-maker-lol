@@ -1,6 +1,6 @@
 Let's make a game!
     name:Evil Forces
-    by:Kazhnuz (based on Orteil exemple)
+    by:Kazhnuz
     desc:I'm just messing around with idle game maker, nothing to see here :)
     created:13/06/2018
     updated:13/06/2018
@@ -10,7 +10,7 @@ Settings
     tiling background:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/background-evilforce.png
     building cost increase:115%
     building cost refund:50%
-    spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+    spritesheet:res, 16 by 16, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/res.css
     stylesheet:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/game.css
  
 Layout
@@ -41,7 +41,6 @@ Buttons
         desc: Use this action to summon an evil creature from the underworld !
         on click:anim icon wobble
         on click:yield 1 gobelin
-        icon:stuff/bunny.png
         no text
         class:action
         tooltip origin:bottom
@@ -53,7 +52,6 @@ Buttons
         on click:anim icon wobble
         on click:yield 10 gold
         on click:yield -1 gobelin
-        icon:stuff/bunny.png
         no text
         class:action
         tooltip origin:bottom
@@ -63,14 +61,14 @@ Resources
    *gold|gold
         name:Gold|Gold
         desc:All the riches that you gained from your army. It's nice to have them, don't you think ?
-        icon:icons[0,0]
+        icon:res[0,0]
         class:noBackground
         show earned
  
    *gobelin|gobelins
         name:Gobelin|Gobelins
         desc:Gobelins are the most basic unit that you can use. Maybe they'll serve to something one day ?
-        icon:icons[0,0]
+        icon:res[0,1]
         class:noBackground
         show earned
        
@@ -83,7 +81,7 @@ Buildings
     *autosummoner|autosummoners
         name:Automatic Summoner|Automatic Summoners
         desc:A tiny little cage.<//><b>Effect:</b><.>Summon 1 gobelin every 5 seconds.
-        icon:icons[3,0]
+        icon:res[0,1]
         cost:15 gold
         on tick:yield 0.2 gobelins
         unlocked
