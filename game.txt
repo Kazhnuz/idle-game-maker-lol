@@ -44,33 +44,19 @@ Buttons
         on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
         icon:stuff/bunny.png
         no text
-        class:bigButton action
-        tooltip origin:bottom
-        tooltip class:red
- 
-    *bunnyButton
-        name:Make a bunny
-        desc:Click this little bunny to get more bunnies!
-        on click:anim icon wobble
-        on click:yield 1 bunny
-        on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-        icon:stuff/bunny.png
-        no text
-        class:bigButton hasFlares
-        icon class:shadowed
+        class:action
         tooltip origin:bottom
         tooltip class:red
  
     *sellAction
-        name:Sell a bunny
-        desc:Sell a little bunny!
+        name:Sell a creature
+        desc:Sell one of your creature!
         on click:anim icon wobble
         on click:yield 10 gold
-        on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
+        on click:yield -1 gobelin
         icon:stuff/bunny.png
         no text
-        class:bigButton hasFlares
-        icon class:shadowed
+        class:action
         tooltip origin:bottom
         tooltip class:red
        
