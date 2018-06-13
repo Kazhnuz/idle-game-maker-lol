@@ -28,8 +28,9 @@
     bottom:0;
     right:0;
     left:0;
-    width:122px;
-    height:28px;
+    width:244px;
+    height:56px;
     background-image:url("https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/action.png
+    margin-bottom:8px;
 ");
 }
