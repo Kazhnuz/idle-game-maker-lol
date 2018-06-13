@@ -11,12 +11,12 @@
 }
  
 .box-forces {
-    width:25%;
+    flex-grow: 2;
     height:100%;
 }
  
 .box-actions {
-    width:25%;
+    flex-grow: 1;
     height:100%;
 }
  
