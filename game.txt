@@ -41,7 +41,6 @@ Buttons
         desc: Use this action to summon an evil creature from the underworld !
         on click:anim icon wobble
         on click:yield 1 gobelin
-        no text
         class:action
         tooltip origin:bottom
         tooltip class:red
@@ -52,7 +51,6 @@ Buttons
         on click:anim icon wobble
         on click:yield 10 gold
         on click:yield -1 gobelin
-        no text
         class:action
         tooltip origin:bottom
         tooltip class:red
