@@ -81,7 +81,7 @@ Buildings
     *TEMPLATE
         on click:anim glow
        
-    *summon-o-machine|summon-o-machines
+    *autosummoner|autosummoners
         name:Automatic Summoner|Automatic Summoners
         desc:A tiny little cage.<//><b>Effect:</b><.>Summon 1 gobelin every 5 seconds.
         icon:icons[3,0]
