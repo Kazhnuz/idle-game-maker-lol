@@ -10,7 +10,7 @@ Settings
     tiling background:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/background-evilforce.png
     building cost increase:115%
     building cost refund:50%
-    spritesheet:res, 16 by 16, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/res.css
+    spritesheet:res, 16 by 16, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/res.png
     stylesheet:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/game.css
  
 Layout
