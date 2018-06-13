@@ -10,7 +10,7 @@ Settings
     tiling background:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/background-evilforce.png
     building cost increase:115%
     building cost refund:50%
-    spritesheet:res, 38 by 38, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/res.png
+    spritesheet:sprite, 38 by 38, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/sprites.png
     stylesheet:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/css.txt
  
 Layout
@@ -42,6 +42,7 @@ Buttons
         on click:anim icon wobble
         on click:yield 1 gobelin
         class:action
+        icon:sprite[0,0]
         tooltip origin:bottom
         tooltip class:red
  
@@ -59,14 +60,14 @@ Resources
    *gold|gold
         name:Gold|Gold
         desc:All the riches that you gained from your army. It's nice to have them, don't you think ?
-        icon:res[0,0]
+        icon:sprite[0,2]
         class:noBackground
         show earned
  
    *gobelin|gobelins
         name:Gobelin|Gobelins
         desc:Gobelins are the most basic unit that you can use. Maybe they'll serve to something one day ?
-        icon:res[1,0]
+        icon:sprite[0,1]
         class:noBackground
         show earned
        
@@ -79,7 +80,7 @@ Buildings
     *workforce|workforces
         name:Work Force|Work Forces
         desc:A tiny little cage.<//><b>Effect:</b><.>Summon 1 gobelin every 5 seconds.
-        icon:res[1,0]
+        icon:sprite[0,1]
         cost:15 gobelins
         on tick:yield 0.2 gobelins
         unlocked
