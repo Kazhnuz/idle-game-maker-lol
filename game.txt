@@ -57,6 +57,43 @@ Buttons
         tooltip class:red
        
 Resources
+  *maxHP
+      name: Max HP
+      desc: the maximum amount of HP you can have
+      start with: 20
+      class:noBackground
+      always hidden
+
+  *maxMana
+      name: Max Mana
+      desc: the maximum amount of Mana you can have
+      start with: 30
+      class:noBackground
+      always hidden
+
+  *HP
+      name: HP
+      desc: Your life ! If you have 0 of it, you die !
+      start with: 20
+      class:noBackground
+      icon:sprite[3,0]
+
+  *Mana
+      name: Mana
+      desc: Your magic energy ! It's used to summon creatures !
+      start with: 30
+      class:noBackground
+      show
+      icon:sprite[3,1]
+
+  *Level
+      name: Level
+      desc: Your power level. For the moment it's not very impressive…
+      start with: 1
+      class:noBackground
+      show
+      icon:sprite[3,2]
+
    *gold|gold
         name:Gold|Gold
         desc:All the riches that you gained from your army. It's nice to have them, don't you think ?
