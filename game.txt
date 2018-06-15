@@ -46,7 +46,8 @@ Buttons
         tooltip origin:bottom
         tooltip class:red
         cost: 5 mana
- 
+        hidden when (dead=1)
+
     *workAction
         name:Work
         desc:Go working in order to gain more money!
@@ -56,7 +57,18 @@ Buttons
         icon:sprite[1,2]
         tooltip origin:bottom
         tooltip class:red
-       
+        hidden when (dead=1)
+
+    *suicideAction
+        name:Suicide
+        desc:Do you wan't do die ? It's pretty possible with the suicide(tm) button !
+        on click:anim icon wobble
+        on click:yield 1 dead
+        class:action
+        icon:sprite[1,2]
+        tooltip origin:bottom
+        tooltip class:red
+        hidden when (dead=1)
 Resources
   *maxHP
       name: Max HP
@@ -79,6 +91,7 @@ Resources
       class:noBackground
       icon:sprite[0,3]
       shown
+      hidden when (dead=1)
 
   *mana
       name: Mana
@@ -87,6 +100,7 @@ Resources
       class:noBackground
       shown
       icon:sprite[1,3]
+      hidden when (dead=1)
 
   *Level
       name: Level
@@ -95,6 +109,7 @@ Resources
       class:noBackground
       shown
       icon:sprite[2,3]
+      hidden when (dead=1)
 
    *gold|gold
         name:Gold|Gold
@@ -102,6 +117,7 @@ Resources
         icon:sprite[0,2]
         class:noBackground
         show earned
+        hidden when (dead=1)
  
    *gobelin|gobelins
         name:Gobelin|Gobelins
@@ -109,7 +125,16 @@ Resources
         icon:sprite[0,1]
         class:noBackground
         show earned
+        hidden when (dead=1)
        
+  *dead
+      name: Welp, you're dead
+      desc: Being dead isn't pretty fun, isn't it ?
+      start with: 0
+      class:noBackground
+      shown
+      hidden when 0
+
 Shinies
 
 Buildings
@@ -123,6 +148,7 @@ Buildings
         cost:15 gobelins
         on tick:yield 0.2 gold
         unlocked
+
         
     *apprentice|apprentices
         name:Apprentice|Apprentices
