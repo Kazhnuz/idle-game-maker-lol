@@ -77,13 +77,14 @@ Resources
       start with: 20
       class:noBackground
       icon:sprite[3,0]
+      shown
 
   *Mana
       name: Mana
       desc: Your magic energy ! It's used to summon creatures !
       start with: 30
       class:noBackground
-      show
+      shown
       icon:sprite[3,1]
 
   *Level
@@ -91,7 +92,7 @@ Resources
       desc: Your power level. For the moment it's not very impressive…
       start with: 1
       class:noBackground
-      show
+      shown
       icon:sprite[3,2]
 
    *gold|gold
