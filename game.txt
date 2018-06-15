@@ -45,6 +45,7 @@ Buttons
         icon:sprite[0,0]
         tooltip origin:bottom
         tooltip class:red
+        cost: 5 mana
  
     *workAction
         name:Work
@@ -79,7 +80,7 @@ Resources
       icon:sprite[0,3]
       shown
 
-  *Mana
+  *mana
       name: Mana
       desc: Your magic energy ! It's used to summon creatures !
       start with: 30
