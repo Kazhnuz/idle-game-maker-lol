@@ -7,10 +7,10 @@ Let's make a game!
     version:0.0.0
  
 Settings
-    tiling background:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/background-evilforce.png
+    tiling background:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/assets/background-evilforce.png
     building cost increase:115%
     building cost refund:50%
-    spritesheet:sprite, 38 by 38, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/sprites.png
+    spritesheet:sprite, 38 by 38, https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/assets/sprites.png
     stylesheet:https://raw.githubusercontent.com/Kazhnuz/idle-game-maker-lol/master/css.txt
  
 Layout
